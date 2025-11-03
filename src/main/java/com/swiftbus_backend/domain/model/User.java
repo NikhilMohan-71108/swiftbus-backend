@@ -23,6 +23,11 @@ public class User {
 
     private String password;
 
+    private String phoneNumber;
+
+    @Column(name = "profile_image_url")
+    private String profileImageUrl;
+
     @Enumerated(EnumType.STRING)
     private Role role;
 
